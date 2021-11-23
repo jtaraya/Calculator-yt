@@ -24,13 +24,25 @@ body {
     border: 1px solidcolor ;
     border-color: white;
     outline: none;
-    background-color: white(255,255,255, .75);
+    background-color: rgba(255, 255, 255, 75)
 }
 
 .calculator-grid > button: hover {
-    background-color: baige(255,255,255, .9);
+    background-color: rgba(255, 255, 255, .9)
 }
 
-.spam-two {
+.span-two {
     grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 50);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
