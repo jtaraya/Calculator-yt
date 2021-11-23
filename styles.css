@@ -17,3 +17,12 @@ body {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto); repeat(5, 100px)
 }
+
+.calculator-grid > button {
+    cursor: pointer ;
+    font-size: 2rem;
+    border: 1px solidcolor ;
+    border-color: white;
+    outline: none;
+    background-color: white(255,255,255, .75);
+}
